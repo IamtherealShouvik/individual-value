@@ -3,10 +3,10 @@
 
 #include <stdio.h>
 #include <math.h>
-#include<stdlib.h>
+#include <stdlib.h>
 int result(float total){
-	float diff= total - (int)total;
-	int first_digit=(int)(10*diff);
+	float diff = total - (int)total;
+	int first_digit = (int)(10*diff);
 	if((first_digit>=0) && (first_digit<=4))
 	return (int)total;
 	else
